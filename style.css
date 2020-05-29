@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  #img-container {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .img-child {
+    opacity: 0;
+  }
+  
+  .animate-opacity {
+    transition-property: opacity;
+    transition-duration: 1s;
+  }
+  
+  .show {
+    opacity: 100;
+  }
